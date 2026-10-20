@@ -1,0 +1,225 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+    line-height: 1.4;
+    font-size: 18px;
+    margin: 0;
+    background-color: rgb(230, 237, 249);
+}
+
+header{
+    padding-top: 200px;
+    padding-bottom: 150px;
+    background-image: url(../images/main\ picture.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+h1{  
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+h3{
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+}
+
+
+h4{
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+
+h5{
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    line-height: 1;
+    padding: 10px;
+    background-color: white;
+}
+
+p{
+    padding: 10px;
+    background-color: white;
+}
+
+
+.content-column{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    
+}
+
+.four-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(196, 213, 242);
+    padding: 20px;
+    max-width: 100%;
+}
+
+
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    
+}
+
+.head{
+    padding-bottom: 30px;
+}
+
+.end{
+    font-size: 12px;
+}
+
+a{
+    font-size: 11px;
+}
+
+@media (min-width: 20px){
+    
+    header{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    body{
+    line-height: 1.4;
+    font-size: 12px;
+    }
+
+    h1{
+    font-size: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    }
+
+    h2{
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    }
+
+    h4{
+       font-size: 30px; 
+    }
+
+}
+
+@media (min-width: 480px){
+
+    .individual-boxes{
+        width:50%;
+    }
+
+    img{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    header{
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+
+    body{
+    line-height: 1.4;
+    font-size: 14px;
+    }
+
+    h1{
+    font-size: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    h2{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+     h4{
+       font-size: 40px; 
+    }
+}
+
+@media (min-width: 640px){
+
+    .individual-boxes{
+        width:50%;
+    }
+
+    img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header{
+        padding-top: 100px;
+        padding-bottom: 75px;
+    }
+
+    body{
+    line-height: 1.4;
+    font-size: 18px;
+    }
+
+    h1{
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    h2{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+     h4{
+       font-size: 40px; 
+    }
+}
