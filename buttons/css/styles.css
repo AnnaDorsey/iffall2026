@@ -1,0 +1,332 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	margin: 40px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+    float: left;
+	overflow: hidden;
+    box-sizing: border-box;
+	text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+a#btn_lyft {
+	display: inline-block;
+    height: 60px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 15px 40px 0 40px;
+	background-color: #ff14a9;
+	border: 2px solid #ff14a9;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+a#btn_lyft:hover {
+	background-color: #940e79;
+	border: 2px solid #940e79;
+	color: #fff;
+    font-size: 30px;
+    height: 75px;
+    box-shadow:  0 0 15px #ff14a9;
+    text-shadow: 0 0 8px white;
+}
+
+
+
+
+
+
+
+
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box div:first-of-type{
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
+.box div:last-of-type{
+    padding: 0 15px 0 15px;
+    color: black;
+}
+
+.behindboxone{
+    background-color: black;
+}
+
+.behindboxtwo{
+    background-color: white;
+}
+
+a#btn_cartoon-network {
+	display: inline-block;
+	height: 140px;
+	box-sizing: border-box;
+	margin: auto;
+	margin-top: 60px;
+	padding: 30px 30px 30px 30px;
+	background-color: #2bc3ff;
+	font-size: 60px;
+	font-family: "Montserrat" sans-serif;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+a#btn_cartoon-network:hover {
+
+	background: #eaff2b;
+
+    .box div:last-of-type{
+    color: white;
+    }
+
+     .box div:first-of-type {
+    color: black;
+    }
+
+    .behindboxone{
+    background-color: white;
+}
+
+.behindboxtwo{
+    background-color: black;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+a#btn_bontans {
+	
+	margin-top: 100px;}
+
+a#btn_Botans {
+	display: inline-block;
+	height: 45px;
+	box-sizing: border-box;
+	border-radius: 25px;
+	margin: auto;
+	margin-top: 65px;
+	padding: 10px 30px 0 30px;
+	background-color: rgb(6, 92, 17);
+	color: rgb(198, 245, 204);
+	font-size: 18px;
+	font-family:  "Barlow Condensed", sans-serif;
+	font-weight: 200;
+	text-decoration: none;
+    transition: all 1s;
+}
+
+a#btn_Botans:hover {
+
+	background: rgb(2, 65, 10);
+    font-weight: 500;
+    font-size: 40px;
+    transition: all 1s;
+    height: 170px;
+    letter-spacing: 8px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+a#btn_Color-run {
+	display: inline-block;
+	height: 40px;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: rgb(46, 4, 51);
+	color: #b49ab8;
+	font-size: 25px;
+	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 500;
+	text-decoration: none;
+    border: 2px solid #b49ab8;
+    transition: all .5s;
+}
+
+a#btn_Color-run:hover {
+	background-color: rgb(40, 4, 51);
+    box-shadow: 0 0 15px #c20a7e;
+    Border: 2px solid #ff0ca6;
+
+    .the{
+        color: #ff0ca6;
+        text-shadow:  0 0 8px #c20a7e;
+    }
+    .color{
+        color: #fff200;
+        text-shadow:  0 0 8px #a59d05;
+    }
+    .run{
+        color: #00a6ff;
+        text-shadow:  0 0 8px #05689d;
+    }
+    
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
+
+a#btn_IBM {
+	display: inline-block;
+	height: 110px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	margin: auto;
+	margin-top: 70px;
+	padding: 10px 30px 0 30px;
+	background-color: white;
+    border: 2px solid black;
+	color: black;
+	font-size: 80px;
+	font-family: "Rokkitt", serif;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+a#btn_IBM:hover {
+
+	background-color: #2442ff;
+    color: white;
+    border: 2px solid #2442ff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a#btn_indiegogo {
+	display: inline-block;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #fff;
+	color: #eb1478;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -2px;
+	transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	z-index: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #eb1478;
+	transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+	color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+a#btn_indiegogo span {
+	position: relative;
+	z-index: 10;
+ }
